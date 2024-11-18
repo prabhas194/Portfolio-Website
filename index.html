@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website - Prabhash Ranjan</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="wrapper">
         <div class="container">
             <div class="navbar">
-                <div class="logo-container">
-                    <img src="./Images/userAsset/NavLogo.jpg" class="logo">
-                    <div class="logo-text">Prabhash</div>
-                </div>
+                
                 <div class="nav-items">
                     <div><a href="#projects">Projects</a></div>
                     <div><a href="#skills">Skills</a></div>
@@ -25,17 +22,15 @@
         <div class="hero-section">
             <div class="absolute faded-text">Prabhash</div>
             <div class="hero-section-left">
-                <div class="hero-section-heading">Hi!! Prabhash Ranjan</div>
+                <div class="hero-section-heading">Hi!! <b>Prabhash Ranjan</b></div>
                 <div class="hero-section-sub-heading">
                     I am a <span class="role"></span>
                 </div>
-                <div class="hero-section-description">
-                    I'm a software developer and here is my portfolio website.I have only written introduction about myself.  
-                </div>
-                <div class="btn-pink" id="btn">Hire me</div>
+               
+                <div class="btn-pink" id="btn"><a href="https://drive.google.com/drive/folders/19rbKBepKsLdTmc445QMn33Vx8ykdimSe">Hire Me</a></div>
             </div>
 
-            <div class="hero-section-right">
+            <!-- <div class="hero-section-right">
                 <div class="absolute icons icon-dots">
                     <img src="./Images/userAsset/dots.png" alt=""/>
                 </div>
@@ -51,11 +46,9 @@
                 <div class="absolute icons icon-plus">
                     <img src="./Images/userAsset/plus.png" alt=""/>
                 </div>
-                <div class="user-image">
-                    <img src="./Images/userAsset/UserImage.png" alt=""/>
-                </div>
+                
             </div>
-        </div>
+        </div> -->
     </div>
 
     <!-- PROJECT SECTION START -->
@@ -63,17 +56,77 @@
     <section id="projects" class="projectSection">
         <h2 class="projectTitle">Projects</h2>
         <div class="projectContainer">
+
           <div class="projectCard" id="project1">
-            <div class="projectNumber rightNumber">01</div>
+            <div class="projectNumber leftNumber">01</div>
+            <div class="projectContent rightProjectContent">
+              <div class="projectSkillsContainer">
+                <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+                <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+                <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
+                <img class="projectSkill" src="./images/stack/React.png" alt="" />
+                <img class="projectSkill" src="./images/stack/Express.png" alt="" />
+                <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
+                <img class="projectSkill" src="./images/stack/MongoDB.svg" alt="" />
+                <img class="projectSkill" src="./images/stack/NodeJs.svg" alt="" />
+                <img class="projectSkill" src="./images/stack/Docker.svg" alt="" />
+              </div>
+              <h2 class="projectHeading"><a href="https://online-judge.store/">Online Judge</a></h2>
+              <p class="projectSubHeading">
+                A web application build using <h1>MERN stack (MongoDB, Express.js, React, Node.js)</h1> where users can test their coding skills in C++ programming language. It is a platform where users can practice DSA questions of different levels Easy, Medium and Hard and test their skills.
+              </p>
+              <div class="btnGroup">
+                <button class="btn btnProject">Read More</button>
+                <a href="https://github.com/Prabhash194/Online-Judge">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="https://online-judge.store/">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projectCard" id="project2">
+            <div class="projectNumber rightNumber">02</div>
             <div class="projectContent leftProjectContent">
               <div class="projectSkillsContainer">
                 <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
                 <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
-                
+                <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
+                <img class="projectSkill" src="./images/stack/React.png" alt="" />
+                <img class="projectSkill" src="./images/stack/Express.png" alt="" />
+                <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
+                <img class="projectSkill" src="./images/stack/NodeJs.svg" alt="" />
+              </div>
+
+              <h2 class="projectHeading"><a href="https://crypto-hunter.netlify.app/">Coin Pulse</a></h2>
+              <p class="projectSubHeading">
+                This project is a Coin Pulse web application built using the <h1>MERN stack (MongoDB, Express.js, React, Node.js)</h1> The platform provides a seamless way for users to interact with DeFi services, such as viewing live cryptocurrency data and managing their portfolio with watchlist functionality.
+              </p>
+              <div class="btnGroup">
+                <button class="btn btnProject">Read More</button>
+                <a href="https://github.com/prabhas194/Coin_Pulse">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="https://crypto-hunter.netlify.app/">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="projectCard" id="project3">
+            <div class="projectNumber leftNumber">03</div>
+            <div class="projectContent rightProjectContent">
+              <div class="projectSkillsContainer">
+                <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+                <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              
               </div>
               <h2 class="projectHeading"><a href="https://prabhas194.github.io/Amazon-Clone/">Amazon Clone</a></h2>
               <p class="projectSubHeading">
-                It is a clone of Amazon made using <h1>HTML and CSS</h1> showing the front page of Amazon shopping site representing images of different shopping items.
+                Developed an Amazon clone replicating the user interface using <h1>HTML and CSS</h1> for an e-commerce platform experience.
               </p>
               <div class="btnGroup">
                 <button class="btn btnProject">Read More</button>
@@ -86,33 +139,9 @@
               </div>
             </div>
           </div>
-  
-          <div class="projectCard" id="project2">
-            <div class="projectNumber leftNumber">02</div>
-            <div class="projectContent rightProjectContent">
-              <div class="projectSkillsContainer">
-                <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
-                <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
-               
-                
-              </div>
-              <h2 class="projectHeading"><a href="https://prabhas194.github.io/Responsive-Blog-Template/">Responsive Blog Template</a></h2>
-              <p class="projectSubHeading">
-                A responsive blog template made using <h1>HTML and CSS</h1> showing the blog headlines of famous personalities and bloggers.
-              </p>
-              <div class="btnGroup">
-                <button class="btn btnProject">Read More</button>
-                <a href="https://github.com/prabhas194/Responsive-Blog-Template">
-                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                </a>
-                <a href="https://prabhas194.github.io/Responsive-Blog-Template/">
-                  <i title="Live Link" class="fa-solid fa-link icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="projectCard" id="project3">
-            <div class="projectNumber rightNumber">03</div>
+
+          <div class="projectCard" id="project4">
+            <div class="projectNumber rightNumber">04</div>
             <div class="projectContent leftProjectContent">
               <div class="projectSkillsContainer">
                 <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
@@ -135,29 +164,7 @@
               </div>
             </div>
           </div>
-          <div class="projectCard" id="project4">
-            <div class="projectNumber leftNumber">04</div>
-            <div class="projectContent rightProjectContent">
-              <div class="projectSkillsContainer">
-                <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
-                <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
-                <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
-              </div>
-              <h2 class="projectHeading"><a href="https://prabhas194.github.io/Dice-Game/">Dice Game</a></h2>
-              <p class="projectSubHeading">
-                A dice game made using <h1>HTML,CSS AND JAVASCRIPT</h1> after every refresh show different numbers on both dices and predict winner.
-              </p>
-              <div class="btnGroup">
-                <button class="btn btnProject">Read More</button>
-                <a href="https://github.com/prabhas194/Dice-Game">
-                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                </a>
-                <a href="https://prabhas194.github.io/Dice-Game/">
-                  <i title="Live Link" class="fa-solid fa-link icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </section>
 
@@ -166,14 +173,15 @@
       <section class="skillContainer" id="skills">
         <div class="skillFadedText absolute">Skills</div>
         <div class="leftSkillContainer">
-          <h2 class="skillHeading"><span>M</span>e and <br />MyTech Stack</h2>
+          <h2 class="skillHeading"><span>M</span>e and <br/>MyTech Stack</h2>
           <div class="skillSubHeading">
             <p>
-              Hi Everyone, My name is Prabhash Ranjan.I am a 4th year B.Tech student at NSUT,New Delhi in Electrical Engineering.
-              I have gained strong skills in C++ programming language and DSA.I am a MERN Stack Developer.
-              I have recently made an Online Judge website using MERN Stack.I have solved more than 900 questions of DSA in various platforms like Leetcode, GeeksforGeeks,Coding Ninjas.
+              Hi Everyone, My name is Prabhash Ranjan.I am a 4th year undergraduate B.Tech student at NSUT,New Delhi.I am from Electrical Engineering.
+              My hobbies are playing cricket & badminton, watching movies and sometimes reading books.
+              I have recently made an Online Judge website using MERN Stack where multiple users go to my website and solved multiple DSA questions and test their coding skills.
+              I have solved above 1000 questions of DSA in various platforms like Leetcode, GeeksforGeeks,Coding Ninjas.
               Due to this, I gained experience of solving of variety of DSA questions and got execellent debugging skills.
-              Currently, I am looking for a good placement as a Software Developer role. 
+              Currently, I am looking for a good placement as a Software Developer role or Full Stack Developer role. 
             </p>
             
             <p>
@@ -194,6 +202,12 @@
           <img src="./images/stack/Javascript.svg" alt="" class="skillsLogo" />
           <img src="./images/stack/React.png" alt="" class="skillsLogo" />
           <img src="./images/stack/NodeJs.svg" alt="" class="skillsLogo" />
+          <img src="./images/stack/Express.png" alt="" class="skillsLogo" />
+          <img src="./images/stack/MongoDB.svg" alt="" class="skillsLogo" />
+          <img src="./images/stack/Git.svg" alt="" class="skillsLogo" />
+          <img src="./images/stack/Github.svg" alt="" class="skillsLogo" />
+          <img src="./images/stack/Tailwind.png" alt="" class="skillsLogo" />
+
 
           <div>
           <h1>SKILLS : </h1> 
@@ -210,19 +224,17 @@
             
             <p>JAVASCRIPT</p>
             <p>REACT.JS</p>
+            <p>NODE.JS</p>
+            <p>EXPRESS.JS</p>
+            <p>MONGODB</p>
+            <p>SQL</p>
             <p>DATABASE MANAGEMENT SYSTEM (DBMS)</p>
             <p>OPERATING SYSTEM (OS)</p>
             <p>OBJECT ORIENTED PROGRAMMING (OOPS)</p>
           </div>
           
-          <img src="./images/stack/Tailwind.png" alt="" class="skillsLogo" />
-          <img src="./images/stack/Bootstrap.svg" alt="" class="skillsLogo" />
           
-          <img src="./images/stack/Express.png" alt="" class="skillsLogo" />
-          <img src="./images/stack/Git.svg" alt="" class="skillsLogo" />
-          <img src="./images/stack/Github.svg" alt="" class="skillsLogo" />
-        
-          <img src="./images/stack/MongoDB.svg" alt="" class="skillsLogo" />
+         
           
           
       
@@ -265,7 +277,7 @@
       <!-- Footer Section Start  -->
       <footer>
         <div class="container footerContainer">
-          <div class="footerFadedText">John Doe</div>
+          <div class="footerFadedText">Prabhash</div>
           <div class="linkContainer">
             <div>
               <a href="#projects">Projects</a>
@@ -278,8 +290,8 @@
             </div>
           </div>
           <div class="iconContainer">
-            <i class="fa-brands fa-linkedin icon"></i>
-            <i class="fa-brands fa-github icon"></i>
+            <i class="fa-brands fa-linkedin icon"><a href="https://www.linkedin.com/in/prabhash-ranjan-835ab222a/"></a></i>
+            <i class="fa-brands fa-github icon"><a href="https://github.com/prabhas194?tab=repositories"></a></i>
             <i class="fa-brands fa-twitter icon"></i>
             <i class="fa-brands fa-instagram icon"></i>
             <i class="fa-regular fa-envelope icon"></i>
@@ -294,10 +306,8 @@
     <script>
         var typeData=new Typed(".role", {
             strings: [
-                "Front-end Developer",
-                "Web Developer",
-                "Coder",
-                 "UI-UX Designer"
+                "Full Stack Developer",
+                "Web Developer"
             ],
             loop:true,
             typeSpeed:100,

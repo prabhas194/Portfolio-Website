@@ -84,7 +84,7 @@ a{
 
 }
 .hero-section-heading{
-    font-size: 35px;
+    font-size: 50px;
     color: #343d68;
     font-weight: 500;
 }
@@ -133,7 +133,7 @@ a{
 }
 .btn-pink:hover{
     border: solid 3px var(--bgOrange);
-    color: black;
+    color: Black;
 }
 #btn-bottom{
     display: none;
